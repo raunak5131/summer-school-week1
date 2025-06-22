@@ -107,3 +107,11 @@ Week 1 of the Summer School was structured to lay a strong foundation in modern 
 
 This week introduced me to a complete beginner-friendly yet industry-relevant development workflow. I now feel more confident navigating the terminal, working with Git, and structuring basic frontend projects — all essential skills for future software development work.
 
+## VS Code Extensions Used
+
+- **Live Server** – For real-time preview of HTML pages.
+- **Prettier** – For code formatting and consistent styling.
+
+## 🔗 Live Site
+
+[Click here to view my deployed webpage](https://raunak5131.github.io/summer-school-week1/)
