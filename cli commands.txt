@@ -1,0 +1,25 @@
+1. pwd — Shows the present working directory. Useful for knowing where you're working in the terminal.
+
+2. ls -l — Lists all files with details like permissions, owner, file size, and modified date.
+
+3. mkdir test folder — Creates a new folder named 'test folder' in the current directory.
+
+4. touch hello.txt — Creates a new empty file named hello.txt in the current directory.
+
+5. rm hello.txt — Deletes the hello.txt file permanently from the directory.
+
+6. chmod +x filename.sh — Gives executable permission to the shell script file named filename.sh.
+
+7. git init — Initializes a new Git repository in the current folder (creates a .git folder).
+
+8. git status — Shows the state of working directory and staging area. Helps track changes.
+
+9. git add . — Stages all the changes (new, modified files) for the next commit.
+
+10. git commit -m "Initial commit" — Saves a snapshot of staged files with a message.
+
+11. git push origin main — Uploads local commits from main branch to GitHub repository.
+
+12. git checkout -b new-feature — Creates and switches to a new branch called new-feature.
+
+13. code . — Opens the current folder in Visual Studio Code.
