@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 40px;
-            background-color: #f0f0f0;
-        }
-        img {
-            max-width: 150px;
-            border-radius: 50%;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My First Webpage</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      margin: 40px;
+    }
+
+    img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+
+    footer {
+      background-color: #e0e0e0;
+      padding: 10px;
+    }
+    p{
+        padding: 10px;
+    }
+  </style>
 </head>
 <body>
 
-    <!-- Your name goes here -->
+  <main>
     <h1>Hello, I'm Raunak!</h1>
-
-    <!-- Optional: Add your photo -->
-    <!-- Replace the src with your image link or local image name -->
-    <img src="image.png" alt="Raunak's Photo">
-
-    <!-- Brief introduction paragraph -->
+    <img src="image.png" alt="Raunak's Photo" />
     <p>
-        I am exploring software development through the Summer School at IITH.
-    This week I learned Git, Linux CLI, HTML, and how to collaborate using GitHub.
-    </p>
+  I am currently exploring the exciting world of software development through the 
+  Summer School at IIT Hyderabad. This program has introduced me to fundamental 
+  tools and technologies such as Git, Linux Command Line Interface (CLI), HTML, 
+  and the collaborative workflows used in modern development environments.
+</p>
 
-    <!-- Optional footer -->
-    <footer>
-        <p>Created during Week 1 of Summer School at Tinkerers' Lab, IITH.</p>
-    </footer>
+<p>
+  I have learned how to track and manage versions of my code, collaborate on GitHub, 
+  and structure web pages using semantic HTML. These experiences have helped me 
+  understand the foundations of open-source development and the importance of clean, 
+  readable code. I am excited to continue this journey, build more projects, and 
+  deepen my understanding of front-end and back-end technologies in the coming weeks.
+</p>
+  </main>
+
+  <footer>
+    <p>Created during Week 1 of Summer School at Tinkerers' Lab, IITH.</p>
+  </footer>
 
 </body>
 </html>
